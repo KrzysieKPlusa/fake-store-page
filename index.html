@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/bicycle-fav-icon.png" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b3558807e0.js" crossorigin="anonymous"></script>
+    <title>Bike World | Sklep internetowy</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="header-title">
+            <span>Bike</span>
+            <span>World</span>
+            <i class="fa fa-bicycle" style="font-size:48px;"></i>
+        </h1>
+        <div class="search-bar">
+            <input type="text" class="search-bar-input" placeholder="Wyszukaj w sklepie..." autocomplete="off" />
+            <div class="search-bar-icon">
+                <i class="fa-solid fa-magnifying-glass" style="font-size: 35px;"></i>
+            </div>
+        </div>
+        <!-- <div class="search-bar-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div> -->
+        <div class="header-basket">
+            <i class="fa-solid fa-cart-shopping" style="font-size: 24px;"></i>
+            <p class="basket-amount">Koszyk</p>
+            <button class="basket-clear-btn">x</button>
+        </div>
+    </header>
+    <main class="container">
+        <aside class="categories">
+            <h1 class="categories-title">Kategorie</h1>
+            <section class="categories-items"></section>
+        </aside>
+        <section class="products"></section>
+        <p class="empty-state">Nie znaleziono żadnego produktu...</p>
+    </main>
+    <script src="products.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
